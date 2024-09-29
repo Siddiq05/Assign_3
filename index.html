@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovate 2024 Conference</title>
+</head>
+<body>
+    <h1>Innovate 2024 Conference</h1>
+    <p>Join us for a two-day event featuring leading experts in technology and innovation!</p>
+    
+    <h2>Event Schedule</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Session Title</th>
+                <th>Speaker</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 AM - 10:00 AM</td>
+                <td>The Future of AI</td>
+                <td>Dr. Alice Johnson</td>
+            </tr>
+            <tr>
+                <td>10:15 AM - 11:15 AM</td>
+                <td>Blockchain Revolution</td>
+                <td>Mr. Bob Smith</td>
+            </tr>
+            <tr>
+                <td>11:30 AM - 12:30 PM</td>
+                <td>Innovations in Healthcare</td>
+                <td>Dr. Carla Green</td>
+            </tr>
+            <tr>
+                <td>01:30 PM - 02:30 PM</td>
+                <td>Smart Cities: The Next Frontier</td>
+                <td>Ms. Diana Lee</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Speaker Bios</h2>
+    <dl>
+        <dt>Dr. Alice Johnson</dt>
+        <dd>AI researcher with over 10 years of experience in machine learning and cognitive computing.</dd>
+    
+        <dt>Mr. Bob Smith</dt>
+        <dd>Blockchain expert and consultant with a focus on decentralized applications and security.</dd>
+    
+        <dt>Dr. Carla Green</dt>
+        <dd>Healthcare innovator passionate about using technology to improve patient outcomes.</dd>
+    
+        <dt>Ms. Diana Lee</dt>
+        <dd>Urban planner specializing in sustainable development and smart infrastructure.</dd>
+    </dl>
+    
+    <h2>Registration Form</h2>
+    <form action="/submit-registration" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company"><br><br>
+    
+        <label for="attending">Attending Days:</label>
+        <select id="attending" name="attending" required>
+            <option value="both">Both Days</option>
+            <option value="day1">Day 1</option>
+            <option value="day2">Day 2</option>
+        </select><br><br>
+    
+        <label for="comments">Comments or Questions:</label>
+        <textarea id="comments" name="comments"></textarea><br><br>
+    
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
